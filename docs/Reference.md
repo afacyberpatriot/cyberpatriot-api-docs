@@ -5,7 +5,7 @@ The CyberPatriot API is organized around [REST](https://en.wikipedia.org/wiki/RE
 ###### BASE URL
 
 ```
-https://scoreboard.uscyberpatriot.org/api
+https://scoreboard.uscyberpatriot.org
 ```
 
 All API requests should be made over [HTTPS](http://en.wikipedia.org/wiki/HTTP_Secure).
@@ -73,6 +73,7 @@ Two or three letter state or country abbreviation.
 | Division      | Explanation                           |
 |---------------|---------------------------------------|
 | All           | All Divisions                         |
+| Any           | Any Divisions                         |
 | AFJROTC       | Air Force JROTC and Space Force JROTC |
 | AJROTC        | Army JROTC                            |
 | CAP           | Civil Air Patrol                      |
@@ -87,6 +88,7 @@ Two or three letter state or country abbreviation.
 | Tier          | Explanation         |
 |---------------|---------------------|
 | All           | All Tiers           |
+| Any           | Any Tiers           |
 | High School   | High school teams   |
 | Middle School | Middle school teams |
 | Platinum      | Platinum tier       |

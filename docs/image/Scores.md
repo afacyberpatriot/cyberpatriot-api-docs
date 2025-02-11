@@ -3,7 +3,7 @@
 ###### ENDPOINTS
 
 ```http
-GET /image/scores.php
+GET /api/image/scores.php
 ```
 
 ###### PARAMETERS

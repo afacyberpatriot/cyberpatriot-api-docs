@@ -3,7 +3,7 @@
 ###### ENDPOINTS
 
 ```http
-GET /image/chart.php
+GET /api/image/chart.php
 ```
 
 ###### PARAMETERS
