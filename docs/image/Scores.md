@@ -8,10 +8,10 @@ GET /api/image/scores.php
 
 ###### PARAMETERS
 
-| Field | Type   | Description                                                                                                  | Required |
-|-------|--------|--------------------------------------------------------------------------------------------------------------|----------|
-| image | string | [Image name](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#image)        | false    |
-| team  | string | [Team number](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#team-number) | true     |
+| Field | Type   | Description                                                                                                     | Required |
+|-------|--------|-----------------------------------------------------------------------------------------------------------------|----------|
+| image | string | [Image name](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#image)        | false    |
+| team  | string | [Team number](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#team-number) | true     |
 
 ###### EXAMPLE REQUEST
 
@@ -48,19 +48,19 @@ curl https://scoreboard.uscyberpatriot.org/api/image/scores.php \
 
 ###### ATTRIBUTES
 
-| Field            | Type                  | Description                                                                                                    |
-|------------------|-----------------------|----------------------------------------------------------------------------------------------------------------|
-| data             | array of dictionaries |                                                                                                                |
-| data.team_id     | integer               | Internal team ID                                                                                               |
-| data.image_id    | integer               | Internal image ID                                                                                              |
-| data.team_number | string                | [Team number](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#team-number)   |
-| data.image       | string                | [Image name](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#image)          |
-| data.duration    | string                | Image [play time](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#play-time) |
-| data.found       | integer               | Vulnerabilities found                                                                                          |
-| data.remaining   | integer               | Vulnerabilities remaining                                                                                      |
-| data.penalties   | integer               | Number of penalties                                                                                            |
-| data.code        | string                | Letter [codes](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#code)         |
-| data.ccs_score   | integer               | CCS score                                                                                                      |
-| data.location    | string                | [Location](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#location)         |
-| data.division    | string                | [Division](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#division)         |
-| data.tier        | string                | [Tier](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#division)             |
+| Field            | Type                  | Description                                                                                                       |
+|------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
+| data             | array of dictionaries |                                                                                                                   |
+| data.team_id     | integer               | Internal team ID                                                                                                  |
+| data.image_id    | integer               | Internal image ID                                                                                                 |
+| data.team_number | string                | [Team number](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#team-number)   |
+| data.image       | string                | [Image name](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#image)          |
+| data.duration    | string                | Image [play time](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#play-time) |
+| data.found       | integer               | Vulnerabilities found                                                                                             |
+| data.remaining   | integer               | Vulnerabilities remaining                                                                                         |
+| data.penalties   | integer               | Number of penalties                                                                                               |
+| data.code        | string                | Letter [codes](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#code)         |
+| data.ccs_score   | integer               | CCS score                                                                                                         |
+| data.location    | string                | [Location](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#location)         |
+| data.division    | string                | [Division](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#division)         |
+| data.tier        | string                | [Tier](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#division)             |

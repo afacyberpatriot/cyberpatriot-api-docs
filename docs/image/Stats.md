@@ -8,11 +8,11 @@ GET /api/image/stats.php
 
 ###### PARAMETERS
 
-| Field    | Type    | Description                                                                                            | Required | Default |
-|----------|---------|--------------------------------------------------------------------------------------------------------|----------|---------|
-| division | string  | [Division](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#division) | false    | Any     |
-| tier     | string  | [Tier](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#tier)         | false    | Any     |
-| image    | string  | [Image name](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#image)  | false    | Any     |
+| Field    | Type    | Description                                                                                               | Required | Default |
+|----------|---------|-----------------------------------------------------------------------------------------------------------|----------|---------|
+| division | string  | [Division](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#division) | false    | Any     |
+| tier     | string  | [Tier](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#tier)         | false    | Any     |
+| image    | string  | [Image name](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#image)  | false    | Any     |
 
 ###### EXAMPLE REQUEST
 
@@ -46,15 +46,15 @@ curl https://scoreboard.uscyberpatriot.org/api/image/stats.php \
 
 ###### ATTRIBUTES
 
-| Field          | Type                  | Description                                                                                            |
-|----------------|-----------------------|--------------------------------------------------------------------------------------------------------|
-| data           | array of dictionaries |                                                                                                        |
-| data.division  | string                | [Division](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#division) |
-| data.tier      | string                | [Tier](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#tier)         |
-| data.image     | string                | [Image name](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#image)  |
-| data.teams     | integer               | Number of teams                                                                                        |
-| data.images    | integer               | Number of images                                                                                       |
-| data.min_score | integer               | Minimum score                                                                                          |
-| data.max_score | integer               | Maximum score                                                                                          |
-| data.std_dev   | string                | Standard deviation                                                                                     |
-| data.avg_score | string                | Average score                                                                                          |
+| Field          | Type                  | Description                                                                                               |
+|----------------|-----------------------|-----------------------------------------------------------------------------------------------------------|
+| data           | array of dictionaries |                                                                                                           |
+| data.division  | string                | [Division](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#division) |
+| data.tier      | string                | [Tier](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#tier)         |
+| data.image     | string                | [Image name](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#image)  |
+| data.teams     | integer               | Number of teams                                                                                           |
+| data.images    | integer               | Number of images                                                                                          |
+| data.min_score | integer               | Minimum score                                                                                             |
+| data.max_score | integer               | Maximum score                                                                                             |
+| data.std_dev   | string                | Standard deviation                                                                                        |
+| data.avg_score | string                | Average score                                                                                             |

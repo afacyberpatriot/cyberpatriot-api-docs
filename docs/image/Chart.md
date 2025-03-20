@@ -8,9 +8,9 @@ GET /api/image/chart.php
 
 ###### PARAMETERS
 
-| Field | Type   | Description                                                                                                  | Required |
-|-------|--------|--------------------------------------------------------------------------------------------------------------|----------|
-| team  | string | [Team number](https://github.com/matthewzring/cyberpatriot-api-docs/blob/main/docs/Reference.md#team-number) | true     |
+| Field | Type   | Description                                                                                                     | Required |
+|-------|--------|-----------------------------------------------------------------------------------------------------------------|----------|
+| team  | string | [Team number](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#team-number) | true     |
 
 ###### EXAMPLE REQUEST
 
