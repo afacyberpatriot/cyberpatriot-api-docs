@@ -6,6 +6,8 @@ This repository reflects the CyberPatriot API as it is meant to be accessed by t
 
 We welcome your contributions! Please use the issue tracker for CyberPatriot API bugs and feature/improvement requests.
 
+**To report security issues or otherwise privately contact the developers, please email matthew.ring [at] utsa.edu.**
+
 ## Need some help?
 
 The [Unofficial CyberPatriot Discord server](https://discord.gg/cyberpatriot) has plenty of knowledgeable people to get you help with something you need, and get updates straight from the developers.
