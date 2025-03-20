@@ -11,7 +11,7 @@ GET /api/image/scores.php
 | Field | Type   | Description                                                                                                     | Required |
 |-------|--------|-----------------------------------------------------------------------------------------------------------------|----------|
 | image | string | [Image name](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#image)        | false    |
-| team  | string | [Team number](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#team-number) | true     |
+| team  | string | [Team number](https://github.com/afacyberpatriot/cyberpatriot-api-docs/blob/main/docs/Reference.md#team-number) | false    |
 
 ###### EXAMPLE REQUEST
 
